@@ -9,64 +9,74 @@
 <link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 </head>
 <body>
 <div id="wrapper">
-	<div id="header-wrapper">
-		<div id="header" class="container">
-			<div id="logo">
-				<h1><a href="./index.html">House Paint</a></h1>
-			</div>
-			<div id="menu">
-				<ul>
-					<li><a href="./index.html" accesskey="1" title="">Página Inicial</a></li>
-					<li><a href="./sobre.html" accesskey="2" title="">Sobre nós</a></li>
-					<li><a href="./servico.html" accesskey="3" title="">Serviços</a></li>
-					<li class="active"><a href="./clientes.html" accesskey="4" title="">Clientes</a></li>
-					<li><a href="./orçamentos.html" accesskey="5" title="">Orçamentos</a></li>
-					<li><a href="./contatos.html" accesskey="6" title="">Contatos</a></li>
-				</ul>
-			</div>
-		</div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="./index.html">House Paint</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+	<div class="collapse navbar-collapse" id="conteudoNavbarSuportado" style="background-color: crimson;">
+	<ul class="navbar-nav mr-auto">
+		<li class="nav-item">
+		<a class="nav-link" href="./index.html">Página Inicial<span class="sr-only">(página atual)</span></a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="./sobre.html">Sobre nós</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="./servico.html">Serviços</a>
+		</li>
+		<li class="nav-item active">
+			<a class="nav-link" href="./clientes.html">Clientes</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="./orçamentos.html">Orçamentos</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="./contatos.html">Contatos</a>
+		</li>
 	</div>
+</nav>
     
 	<div id="page" class="container">
     
 	<div class="title">
-	    <h2>Clientes</h2><br>
+	    <h2>Clientes</h2>
         <span class="byline">
             Aqui você pode visualizar as imagens de alguns serviços já realizados pela House Paint ao longo do tempo, recomendamos aos nossos clientes a visualização 
             das fotos e também recomendamos visitas técnicas em algumas obras para que verifiquem como nossa equipe trabalha.
         </span> </div>
-        <h2>Depoimentos</h2><br>
-        <h3>Tulio Lemos Veloso Machado</h3><br>
-        	<p>Fiquei satisfeito com os serviços de pintura da House Paint. É uma empresa comprometida com a satisfação do cliente e isso é fundamental pra mim.</p><br>
-        	<img src="./clientes/cliente1.jpg" alt=""><br>
-        <h3>Rodrigo Pacheco</h3><br>
-        	<p>A House Paint estava certa sobre o orçamento. Disseram-me o custo para pintar minha casa e entregaram exatamente o que eles disseram que seria. Uma raridade nos dias de hoje.</p><br>
-		<img src="./clientes/cliente2.jpg" alt=""><br>
-        <h3>Norberto Antunes</h3><br>
-        	<p>Muito obrigado! Estou 100% satisfeito com o trabalho. Eles fizeram um trabalho grande, profissional. Meus agradecimentos à equipe por seu bom trabalho e profissionalismo.</p><br>
-		<img src="./clientes/cliente3.jpg" alt=""><br>
-        <h3>Raquel Andrade</h3><br>
-        	<p>Quando eu chamei a empresa House Paint para fazer a pintura e acabamentos da minha casa, o prazo era o aspecto fundamental. Eu precisava ter esse serviço em um tempo específico e todos me deram um prazo maior. A House Paint fez o trabalho no prazo prometido.</p><br>
-		<img src="./clientes/cliente4.jpg" alt=""><br>
-        <h3>Kas & Natalie Melowsky</h3><br>
-        	<p>Quando falei com o funcionário da House Paint responsável pelo orçamento, eu tinha dois outros pintores vindo fazer o orçamento, mas eu cancelei a visita deles. Eu estava totalmente a vontade e sentia que o funcionário da House Paint estava sendo honesto.</p><br>
-		<img src="./clientes/cliente5.jpg" alt=""><br>
+		<h2>Depoimentos</h2><br>
+		<img src="./clientes/cliente1.jpg" alt="">
+        <p>Fiquei satisfeito com os serviços de pintura da House Paint. É uma empresa comprometida com a satisfação do cliente e isso é fundamental pra mim (Tulio Lemos Veloso Machado).</p>
+		<img src="./clientes/cliente2.jpg" alt="">
+		<p>A House Paint estava certa sobre o orçamento. Disseram-me o custo para pintar minha casa e entregaram exatamente o que eles disseram que seria. Uma raridade nos dias de hoje. (Rodrigo Pacheco).</p>
+		<img src="./clientes/cliente3.jpg" alt="">
+		<p>Muito obrigado! Estou 100% satisfeito com o trabalho. Eles fizeram um trabalho grande, profissional. Meus agradecimentos à equipe por seu bom trabalho e profissionalismo. (Norberto Antunes).</p>
+		<img src="./clientes/cliente4.jpg" alt="">
+		<p>Quando eu chamei a empresa House Paint para fazer a pintura e acabamentos da minha casa, o prazo era o aspecto fundamental. Eu precisava ter esse serviço em um tempo específico e todos me deram um prazo maior. A House Paint fez o trabalho no prazo prometido (Raquel Andrade).</p>
+		<img src="./clientes/cliente5.jpg" alt="">
+		<p>Quando falei com o funcionário da House Paint responsável pelo orçamento, eu tinha dois outros pintores vindo fazer o orçamento, mas eu cancelei a visita deles. Eu estava totalmente a vontade e sentia que o funcionário da House Paint estava sendo honesto. (Kas & Natalie Melowsky).</p>
     </div>
 </div>
-<div id="copyright" class="container">
+<div id="copyright" style="background-color: black;">
 	<p>
 		<ul>
 			<center>
-				<h1>Contatos</h1>
-				<li>Endereço: Av. Nereu Ramos, 3777D - Seminário, Chapecó - SC, 89813-000</li>
-				<li>Horário de atendimento: 07:00 às 19:00 de segunda à sábado. </li>
-				<li>Telefone: (49) 3319-2600</li>
-				<li>E-mail: contato@housepaint.com.br</li>
-				<li>Site: www.housepaint.com.br</li>
+					<h1 style="color:darkblue;">Contatos</h1>
+				<div style="color: white;">
+					<li>Endereço: Av. Nereu Ramos, 3777D - Seminário, Chapecó - SC, 89813-000</li>
+					<li>Horário de atendimento: 07:00 às 19:00 de segunda à sábado. </li>
+					<li>Telefone: (49) 3319-2600</li>
+					<li>E-mail: contato@housepaint.com.br</li>
+					<li>Site: www.housepaint.com.br</li>
+				</div>
 			</center>
 		</ul>
 	</p>
